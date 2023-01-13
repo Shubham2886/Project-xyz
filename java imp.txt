@@ -1,0 +1,95 @@
+Core Java :
+1. Garbage Collection.
+2. Class loader.
+3. Heap Memory(JVM)
+4. JRE vs JDK
+5. Java version learnt.
+	- Imporvements.
+6. Classes, Interface, Enum, Objects, static, C'tor, Overloading, Overriding,
+   Types of Inheritance, Abstract vs Interface.
+6.1 Abstract Factory Pattern, Builder pattern, 
+7. Four pillars OOP.
+8. Types of polymorphism.
+9. Static vs Dynamic binding.
+10. Access modifiers.
+11. Why do we need Modularization?
+12. Why java do not support multiple interitance with classes?
+13. this keyword, super keyword.
+14. types of c'tors.
+15. data types in java(with size)
+16. String class - String pool, String class (number of ctor)
+16.1 String vs StringBuilder Vs StringBuffer
+16.2 Why String is immutable.
+17. equals(), == 
+18. toString(), hashCode()
+19. Thread :
+	- Concurrency
+	- Run vs Thread
+	- interrupt vs join
+	- wait -> notify, notifyAll
+	- synchronized
+	- How to prevent deadlock
+	- how to acquire lock.
+	- what are renetrant lock.
+	- sleep
+	- thread priority
+	- thread pool(executor framework)
+	- mutex, semaphor (IPC mechanism)
+	- Monitor
+	- print 1-10 with delay of 1sec using thread.
+20. Exceptions :
+	- Types of exception
+	- throw vs throws
+	- checked exception
+	- unchecked exception
+	- Mannually throw runtime exception.
+	- can we throw exception inside catch() block
+	- try with
+		try(){} catch(){}
+		try{
+			System.exit();
+		}catch()
+		{
+			...
+		}
+		finally{
+			...
+		}
+	- final vs finally vs finalize
+21. Collection Framework :
+	- Hierarchy of collection framework.
+	- Why Map is not part of collection part.
+	- TreeMap, TreeSet
+	- ArrayList vs LinkedList Vs Vector
+		- Vector is threadSafe.
+	- ArrayList vs Array
+	- Hashmap, ConcurrentHashMap, LinkedHashMap
+	- Set, HashSet, LinkedHashSet
+	- Comparator vs Comparable.
+	- Iterable vs Iterator.
+	- EntrySet, KeySet
+	- ConcurrentModificationException.
+22. Reflection :
+	- getName(), getClassName()
+23. Singleton class.
+	- C'tor private
+	- then we have static method.
+	- public static Object<T> getInstance(){
+		if(object != null)
+			return object;
+		else
+			return new Object();
+	}	
+24. When to use abstract class vs interface?
+	-> If we want to group like fields then use abstract class.
+	-> like methods then  use interface.
+25. public static final <- default  in interface.
+26. Java Generics :
+	- T
+	- K
+	- V
+	- <? extends Class>
+27. Java Streams API:
+	- Lambda
+	- Regular Expression
+	- Java Stream operation.
